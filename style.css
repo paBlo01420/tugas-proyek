@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+:root {
+  --main-color: #00B4D8;
+}
+
+:root {
+  --secondary-color: #F8F8F8;
+}
+
+:root {
+  --text-color: #444444;
+}
+
+header {
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling Container */
+.container {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 20px;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+h2 {
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+.a {
+  text-decoration: none;
+}
+
+.container-kamar h3,
+p {
+  text-decoration: none;
+}
+
+.room {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.room-info {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.room-info h3 {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.room-details p {
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.kampus {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.room img,
+.kampus img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.see-more {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.see-more button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-kampus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.kampus img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Header Styles */
+header {
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.account a {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container p {
+  margin: 0;
+  color: blueviolet;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media ul li {
+  margin-bottom: 10px;
+}
+
+.social-media ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom-bar {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom-bar p {
+  margin: 0;
+  color: revert;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .room,
+  .kampus {
+    width: 100%;
+  }
+
+  .header-image {
+    width: 100%;
+    display: none;
+  }
+}
